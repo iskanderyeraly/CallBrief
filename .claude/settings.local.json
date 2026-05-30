@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(claude-api)",
+      "Bash(curl -s -X POST http://localhost:8000/summarize -H 'Content-Type: application/json' -d '{\"transcript\": \"Good morning everyone. This is Apple Q1 2024 earnings call. We reported revenue of $119.6 billion, up 2% year over year. EPS was $2.18, beating estimates of $2.10. iPhone revenue was $69.7 billion. Services revenue hit a record $23.1 billion. Gross margin was 45.9%. We are guiding Q2 revenue between $93-97 billion. We see strong growth in emerging markets. Risks include foreign exchange headwinds and macroeconomic uncertainty. Analyst question: How do you view China demand? Management: We are seeing stabilization.\"}')",
+      "Bash(python3 -m json.tool)"
+    ]
+  }
+}
