@@ -1,5 +1,5 @@
 // src/api/client.js
-const BASE = 'http://localhost:8000';
+const BASE = 'https://callbrief-production.up.railway.app';
 
 async function post(path, body) {
   const res = await fetch(`${BASE}${path}`, {
